@@ -9,13 +9,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var quote : Quote
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Text(quote.text)
+            Text(quote.author)
+                .font(.subheadline)
+        }
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(quote : quotesData[0])
     }
 }

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "author":"Jane Austen",
+        "text":"There is no charm equal to tenderness of heart"
+        
+    },
+    {
+        "id": 2,
+        "author":"Thomas Jefferson",
+        "text":"Honesty is the first chapter in the book of wisdom"
+        
+    },
+    {
+        "id": 3,
+        "author":"Lao Tzu",
+        "text":"The journey of a thousand miles begins with one step"
+        
+    }
+]
